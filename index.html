@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Vision International Company</title>
+  
+  <!-- Your CSS -->
+  <link rel="stylesheet" href="home.css" />
+  
+  <!-- Font Awesome for icons -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  />
+</head>
+<body>
+  <header>
+    <img src="images/logo.png" alt="Company Logo" style="width:100px;" />
+    <h1>Vision International Company</h1>
+    <p>Kigali, Rwanda - Gisozi</p>
+  </header>
+
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="logo-title">Vision International Company</div>
+      <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#stats">Stats</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <script>
+    function toggleMenu() {
+      const links = document.querySelector('.nav-links');
+      links.classList.toggle('active');
+    }
+  </script>
+
+  <section id="home">
+    <h2>Welcome to Vision International Company</h2>
+    <p>
+      We connect workers with employers across various fields in Rwanda.
+      Whether you're looking for reliable staff or seeking employment, we are
+      here to help!
+    </p>
+    <img
+      src="images/welcome.jpg"
+      alt="Welcome Image"
+      style="width:100%; max-width:600px; display:block; margin:auto;"
+    />
+  </section>
+
+  <!-- Stats Section -->
+  <section id="stats" class="stats-section">
+    <h2>Our Current Stats</h2>
+    <div class="stats-grid">
+      <div class="stat-box">
+        <i class="fas fa-briefcase stat-icon"></i>
+        <h3>10,000+</h3>
+        <p>Active Employers</p>
+      </div>
+      <div class="stat-box">
+        <i class="fas fa-users stat-icon"></i>
+        <h3>8,000+</h3>
+        <p>Active Employees</p>
+      </div>
+      <div class="stat-box">
+        <i class="fas fa-hourglass-half stat-icon"></i>
+        <h3>Many</h3>
+        <p>Pending Requests</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="services" class="services">
+    <h2>Our Services</h2>
+    <div class="services-grid">
+      <div class="service-item">Cleaner Placement</div>
+      <div class="service-item">Housekeeper Hiring</div>
+      <div class="service-item">Driver Recruitment</div>
+      <div class="service-item">Babysitter Services</div>
+      <div class="service-item">Security Staff Hiring</div>
+      <div class="service-item">Gardener and Domestic Workers</div>
+      <div class="service-item">Office Support Staff</div>
+      <div class="service-item">House Renting</div>
+      <div class="service-item">House Sale</div>
+      <div class="service-item">Land Sale</div>
+      <div class="service-item">Car Sale</div>
+      <div class="service-item">Car Renting</div>
+    </div>
+
+    <!-- Service Images Showcase -->
+    <div class="service-images">
+      <div class="service-image-item">
+        <img src="images/cars.jpeg" alt="Car Renting" />
+        <p>Car Renting</p>
+      </div>
+      <div class="service-image-item">
+        <img src="images/cars house.jpeg" alt="Car Sale" />
+        <p>Car Sale</p>
+      </div>
+      <div class="service-image-item">
+        <img src="images/babysitter.avif" alt="Babysitter" />
+        <p>Babysitter</p>
+      </div>
+      <div class="service-image-item">
+        <img src="images/workers.jpg" alt="Workers" />
+        <p>Employees</p>
+      </div>
+      <div class="service-image-item">
+        <img src="images/land sale.jpeg" alt="land sale" />
+        <p>Land Sale</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <h2>About Us</h2>
+    <p>
+      Vision International Company is a staffing agency based in Gisozi,
+      Kigali. We focus on connecting skilled workers with employers in need of
+      household, personal, and business support services.
+    </p>
+    <p>
+      Our mission is to reduce unemployment by providing accessible and fair
+      opportunities while making it easier for families and businesses to find
+      the help they need.
+    </p>
+  </section>
+
+  <section id="gallery" class="gallery">
+    <h2>Staff Members</h2>
+    <div class="gallery-grid">
+      <div class="gallery-item">
+        <img src="Staff/Dr Kamuhanda Claude.jpg" alt="CEO" />
+        <h4>APOSTEL DR.KAMUHANDA Claude</h4>
+        <p>CEO</p>
+      </div>
+      <div class="gallery-item">
+        <img src="Staff/UYIRUTASATE Nadia.jpg" alt="Marketing" />
+        <h4>UYIRUTASATE Nadia</h4>
+        <p>Marketing</p>
+      </div>
+      <div class="gallery-item">
+        <img src="Staff/nn.jpg" alt="Accountant" />
+        <h4>UWITONZE Macrisse</h4>
+        <p>Accountant</p>
+      </div>
+    </div>
+    <div class="gallery-grid">
+      <div class="gallery-item">
+        <img src="Staff/Obed.JPG" alt="HR" />
+        <h4>NSABIMANA Obed</h4>
+        <p>Human Resource</p>
+      </div>
+      <div class="gallery-item">
+        <img src="Staff/rebecca.JPG" alt="Receptionist" />
+        <h4>ISHIMWE Rebecca</h4>
+        <p>Receptionist</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>Email: visioninternationalcampanyltd2@gmail.com</p>
+    <p>Location: Kigali, Rwanda - Gisozi</p>
+    <p>
+      Phone: +250 788 465 724<br />
+      +250 791 453 066<br />
+      +250 787 278 126
+    </p>
+
+    <div style="margin-top: 30px; text-align:center;">
+      <h3>Find Us Here</h3>
+      <iframe
+        src="https://www.google.com/maps?q=Gisozi,+Kigali,+Rwanda&output=embed"
+        width="100%"
+        height="300"
+        style="border:0; border-radius:10px;"
+        allowfullscreen=""
+        loading="lazy"
+      ></iframe>
+    </div>
+  </section>
+
+  <!-- Social Media Section -->
+  <section id="social-media" class="social-media">
+    <h2>Follow Us</h2>
+    <div class="social-links">
+      <a href="https://www.instagram.com/visioninternationalcompany?igsh=MTFkZGc4ZWdzY3BveQ==" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+        <i class="fab fa-instagram"></i> @visioninternationalcompany
+      </a>
+      <a href="mailto:visioninternationalcompanyltd2@gmail.com" aria-label="Email">
+        <i class="fas fa-envelope"></i> visioninternationalcompanyltd2@gmail.com
+      </a>
+      <a href="https://www.facebook.com/profile.php?id=61572474547782" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+        <i class="fab fa-facebook-f"></i> Vision International Company
+      </a>
+      <a href="https://www.tiktok.com/@vision.internatio1?_t=ZM-8xgzMJABDTM&_r=1" target="_blank" rel="noopener noreferrer" aria-label="TikTok">
+        <i class="fab fa-tiktok"></i> @vision.internatio1
+      </a>
+    </div>
+  </section>
+
+  <!-- WhatsApp Floating Button -->
+  <a
+    href="https://wa.me/250791453066"
+    target="_blank"
+    rel="noopener noreferrer"
+    class="whatsapp-float"
+    aria-label="Chat on WhatsApp"
+  >
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <footer>
+    <p>&copy; 2025 Vision International Company. All rights reserved.</p>
+  </footer>
+</body>
+</html>
